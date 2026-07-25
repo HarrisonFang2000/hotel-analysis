@@ -1,0 +1,38 @@
+# 数据目录
+data/
+!data/.gitkeep
+
+# 前端依赖
+frontend/node_modules/
+frontend/dist/
+
+# 打包输出
+dist/
+build/
+*.spec.bak
+
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# 日志
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 锁文件
+*.lock
